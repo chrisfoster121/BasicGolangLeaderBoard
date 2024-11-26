@@ -2,4 +2,5 @@ This is a very basic version of a leaderboard for GameOff-2024 game jam. It is n
 
 There are two internal packages aside form main, auth and handler. 
 - auth handles JWT tokens for the client and service to ensure you cant just send a request from postman withought knowing the keys.
-- handler handles the various dynamo requests. This can be improved apon but for now it will work for the game jam.
+- handler handles the various dynamo requests for the api calls. 
+This can be improved apon but for now it will work for the game jam.
